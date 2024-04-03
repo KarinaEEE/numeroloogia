@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0f8cd3c2-eb20-4eb1-aaa7-2bb689d0fb28</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>numeroloogia.py</StartupFile>
+    <StartupFile>..\..\numeroloogia.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="numeroloogia.py" />
+    <Compile Include="..\..\numeroloogia.py">
+      <Link>numeroloogia.py</Link>
+    </Compile>
     <Compile Include="nummodul.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
